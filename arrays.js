@@ -112,6 +112,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   
   function destructivelyRemoveElementFromBeginningOfArray(array){
     array.shift()
+    return array
   }
   
 /*************************************************************************************
@@ -131,6 +132,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   */
   function removeElementFromBeginningOfArray(array){
     array.slice(1);
+    return array
   }
   
 /*************************************************************************************
@@ -149,6 +151,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   function destructivelyRemoveElementFromEndOfArray(array){
     array = array.pop()
     // array = array.slice(0 , array.length -1)
+    return array
   }
   /*************************************************************************************
   describe('removeElementFromEndOfArray(array)', () => {
