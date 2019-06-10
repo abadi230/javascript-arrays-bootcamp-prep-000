@@ -39,12 +39,12 @@ function addElementToBeginningOfArray(array, element){
   })
 */
 function destructivelyAddElementToBeginningOfArray(array, element){
-  element = "foo";
-  array=[1];
-  array =addElementToBeginningOfArray();
-  array[1]= 1;
-  array[2]= element;
-  // moreArray= [element, ...array]
+  // element = "foo";
+  // array=[1];
+  // array =addElementToBeginningOfArray();
+  // array[1]= 1;
+  // array[2]= element;
+  // // moreArray= [element, ...array]
 
   return array
 }
