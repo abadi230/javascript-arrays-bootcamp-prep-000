@@ -133,7 +133,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
     array.slice(1);
   }
   
-  /*************************************************************************************
+/*************************************************************************************
    * describe('destructivelyRemoveElementFromEndOfArray(array)', () => {
     it('returns the array with the last element removed', () => {
       expect(destructivelyRemoveElementFromEndOfArray([1, 2, 3])).to.eql([1, 2])
@@ -150,7 +150,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
     array = array.pop()
     // array = array.slice(0 , array.length -1)
   }
-  
+  /*************************************************************************************
   describe('removeElementFromEndOfArray(array)', () => {
     it('removes the last element from the array', () => {
       expect(removeElementFromEndOfArray([1, 2, 3])).to.eql([1, 2])
