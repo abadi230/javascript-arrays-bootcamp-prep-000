@@ -44,5 +44,5 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   array =[addElementToBeginningOfArray(), element, ...array];
   moreArray= [element, ...array]
 
-  return moreArray
+  return array
 }
