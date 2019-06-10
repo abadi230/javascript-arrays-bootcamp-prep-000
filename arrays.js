@@ -20,10 +20,7 @@ function addElementToBeginningOfArray(array, element){
   array=[1];
   array = [element, ...array];
  
-  // moreArray= [element, ...array]
-  // array[1]= element;
   return array
-  
 }
 
 /*************************************************************************************
@@ -42,8 +39,9 @@ function addElementToBeginningOfArray(array, element){
   })
 */
 function destructivelyAddElementToBeginningOfArray(array, element){
-  element = "foo"
-  array =addElementToBeginningOfArray()
+  element = "foo";
+  array=[1];
+  array =[addElementToBeginningOfArray(), element, ...array];
   moreArray= [element, ...array]
 
   return moreArray
