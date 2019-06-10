@@ -93,5 +93,5 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   })
   */
   function accessElementInArray(array, index){
-    return array
+    return array[index]
   }
