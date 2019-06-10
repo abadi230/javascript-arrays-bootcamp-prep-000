@@ -65,7 +65,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
     return array
   }
   
-  /*************************************************************************************
+/*************************************************************************************
   describe('destructivelyAddElementToEndOfArray(array, element)', () => {
     it('adds an element to the end of an array', () => {
       expect(destructivelyAddElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
@@ -85,7 +85,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
     return array
   }
   
-    /*************************************************************************************
+/*************************************************************************************
   describe('accessElementInArray(array, index)', () => {
     it('accesses the element in array at the given index', () => {
       expect(accessElementInArray([1, 2, 3], 2)).to.equal(3)
@@ -96,7 +96,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
     return array[index]
   }
   
-      /*************************************************************************************
+/*************************************************************************************
        * describe('destructivelyRemoveElementFromBeginningOfArray(array)', ()=>{
     it('returns the array with the first element removed', () => {
       expect(destructivelyRemoveElementFromBeginningOfArray([1, 2, 3])).to.eql([2, 3])
@@ -114,7 +114,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
     array.shift()
   }
   
-        /*************************************************************************************
+/*************************************************************************************
          * describe('removeElementFromBeginningOfArray(array)', () => {
     it('removes the first element from the array', () => {
       expect(removeElementFromBeginningOfArray([1, 2, 3])).to.eql([2, 3])
@@ -132,3 +132,6 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   function removeElementFromBeginningOfArray(array){
     array.slice(1);
   }
+  
+  /*************************************************************************************
+   * 
