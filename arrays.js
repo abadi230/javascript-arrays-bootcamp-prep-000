@@ -97,4 +97,19 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   }
   
       /*************************************************************************************
-       * 
+       * describe('destructivelyRemoveElementFromBeginningOfArray(array)', ()=>{
+    it('returns the array with the first element removed', () => {
+      expect(destructivelyRemoveElementFromBeginningOfArray([1, 2, 3])).to.eql([2, 3])
+    })
+    
+    it('alters the original array', ()=>{
+      const array = [1, 2, 3];
+      destructivelyRemoveElementFromBeginningOfArray(array);
+      expect(array).to.eql([2, 3]);
+    })
+  })
+  */
+  
+  function destructivelyRemoveElementFromBeginningOfArray(array){
+    array.shift()
+  }
