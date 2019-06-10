@@ -38,9 +38,9 @@ function addElementToBeginningOfArray(array, element){
     })
   })
 */
-var x = addElementToBeginningOfArray();
+
 function destructivelyAddElementToBeginningOfArray(array, element){
   element = 'foo';
-  morarray = [element, ...array];
-  return morarray
+  moreArray = [element, ...array];
+  return moreArray
 }
