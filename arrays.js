@@ -147,6 +147,6 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   })
   */
   function destructivelyRemoveElementFromEndOfArray(array){
-    // array = array.pop()
-    array = array.slice(0 , array.length -1)
+    array = array.pop()
+    // array = array.slice(0 , array.length -1)
   }
