@@ -38,8 +38,8 @@ function addElementToBeginningOfArray(array, element){
     })
   })
 */
+x = addElementToBeginningOfArray();
 function destructivelyAddElementToBeginningOfArray(array, element){
- [addElementToBeginningOfArray(), ...array]
-
+array = [x, ...array];
   return array
 }
