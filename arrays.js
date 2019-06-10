@@ -65,4 +65,22 @@ function destructivelyAddElementToBeginningOfArray(array, element){
     return array
   }
   
-  
+  /*************************************************************************************
+  describe('destructivelyAddElementToEndOfArray(array, element)', () => {
+    it('adds an element to the end of an array', () => {
+      expect(destructivelyAddElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
+    })
+
+    it('alters the original array', () => {
+      const array = [1]
+
+      destructivelyAddElementToEndOfArray(array, 'foo')
+
+      expect(array).to.eql([1, 'foo'])
+    })
+  })
+  */
+  function destructivelyAddElementToEndOfArray(array, element){
+    array.push(element);
+    return array
+  }
