@@ -40,6 +40,7 @@ function addElementToBeginningOfArray(array, element){
 */
 var x = addElementToBeginningOfArray();
 function destructivelyAddElementToBeginningOfArray(array, element){
-array = [x, ...array];
+  element = 'foo';
+  array = [x, ...array];
   return array
 }
