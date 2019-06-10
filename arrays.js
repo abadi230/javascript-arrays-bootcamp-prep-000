@@ -149,7 +149,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   })
   */
   function destructivelyRemoveElementFromEndOfArray(array){
-    array = array.pop()
+    array.pop()
     // array = array.slice(0 , array.length -1)
     return array
   }
